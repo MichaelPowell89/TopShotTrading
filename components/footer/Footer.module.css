@@ -1,0 +1,4 @@
+.list {
+    gap: 1em;
+    display: flex;
+}

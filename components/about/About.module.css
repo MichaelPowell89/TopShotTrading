@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.image {
+    border-radius: 1em;
+    height: auto;
+    max-width: 50%;
+}
+
+.text {
+    flex: 0 0 50%;
+    margin: 0;
+    text-align: left;
+}
+
+.text h3{
+    margin-top: 0;
+}

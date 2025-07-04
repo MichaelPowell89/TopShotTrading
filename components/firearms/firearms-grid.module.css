@@ -1,0 +1,25 @@
+.firearms {
+    width: 90%;
+    max-width: 90rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+    grid-gap: 5rem;
+    margin: 2rem auto;
+    list-style: none;
+    padding: 0;
+  }
+
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    justify-content: space-between;
+    margin: auto;
+    max-width: 65vw;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+  }
+
+  .gallery::-webkit-scrollbar {
+    display: none; 
+  }

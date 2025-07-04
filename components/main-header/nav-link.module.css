@@ -1,0 +1,25 @@
+.link {
+    border-radius: 0.5rem;
+    color: var(--sub-text-color);
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 300;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  
+  .link:hover,
+  .link:active {
+    background: linear-gradient(90deg, #ff8a05, #f9b331);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 0 18px rgba(248, 190, 42, 0.8);
+  }
+  
+  .active {
+    background: linear-gradient(90deg, #ff8a05, #f9b331);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
